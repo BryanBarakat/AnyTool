@@ -1,0 +1,7 @@
+.default-select select {
+  background-color: #383838;
+  border: none;
+  color: white;
+  width: 70vw;
+  margin-bottom: 20px;
+}

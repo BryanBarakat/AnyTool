@@ -1,0 +1,26 @@
+.default-button button {
+  background: linear-gradient(to left, white 50%, #379eff 50%) right;
+  color: #303030;
+  background-size: 200% 100%;
+  padding: 6px 18px 6px 18px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 16px;
+  border-width: 0 6px 7px 0;
+  border-radius: 5px;
+  border-color: transparent #ddd #999 transparent;
+  transition: background 400ms ease-in-out;
+  background-clip: padding-box;
+}
+
+.default-button button:hover {
+  background-position: left;
+  color: #fff;
+  border-width: 0 2px 3px 0;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  position: relative;
+  left: 2px;
+  top: 3px;
+}

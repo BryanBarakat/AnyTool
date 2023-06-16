@@ -1,0 +1,82 @@
+.container-age-calc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  row-gap: 60px;
+}
+
+.date-of-birth-input,
+.todays-date-input {
+  display: flex;
+  column-gap: 40px;
+}
+
+.container-age-calc select {
+  border: none;
+  width: 20vw;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 800;
+}
+
+.container-age-calc h2 {
+  color: white;
+}
+
+.container-age-calc button {
+  background: linear-gradient(to left, white 50%, #379eff 50%) right;
+  color: #303030;
+  background-size: 200% 100%;
+  padding: 6px 18px 6px 18px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 16px;
+  border-width: 0 6px 7px 0;
+  border-radius: 5px;
+  border-color: transparent #ddd #999 transparent;
+  transition: background 400ms ease-in-out;
+  background-clip: padding-box;
+}
+
+.container-age-calc button:hover {
+  background-position: left;
+  color: #fff;
+  border-width: 0 2px 3px 0;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  position: relative;
+  left: 2px;
+  top: 3px;
+}
+
+.table-of-data-age-calc {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.table-of-data-age-calc table {
+  width: 70%;
+  border-collapse: collapse;
+  color: white;
+  background-color: #393939;
+}
+
+.table-of-data-age-calc table td {
+  padding: 10px;
+  border: 4px solid #282828;
+}
+
+.table-of-data-age-calc table td:first-child {
+  font-weight: bold;
+}
+
+.table-of-data-age-calc table td:nth-child(2) {
+  text-align: center;
+}

@@ -1,0 +1,63 @@
+textarea {
+  width: 80vw;
+  height: 30vh;
+  padding: 15px;
+  border: 1px solid #262626;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  resize: none;
+  margin: 0 auto;
+  display: block;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.4s ease-in-out;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #363636;
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 6px #fff;
+}
+
+.prompt {
+  margin-top: 4%;
+}
+
+.prompt-click {
+  display: flex;
+  margin-left: 10%;
+  gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.prompt-click button {
+  background: linear-gradient(to left, white 50%, #379eff 50%) right;
+  color: #303030;
+  background-size: 200% 100%;
+  padding: 6px 18px 6px 18px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 16px;
+  border-width: 0 6px 7px 0;
+  border-radius: 5px;
+  border-color: transparent #ddd #999 transparent;
+  transition: background 400ms ease-in-out;
+  background-clip: padding-box;
+}
+
+.prompt-click button:hover {
+  background-position: left;
+  color: #fff;
+  border-width: 0 2px 3px 0;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  position: relative;
+  left: 2px;
+  top: 3px;
+}

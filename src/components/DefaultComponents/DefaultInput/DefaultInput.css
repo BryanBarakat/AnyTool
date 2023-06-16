@@ -1,0 +1,13 @@
+.default-input input {
+  background-color: #383838;
+  border: none;
+  color: white;
+  width: 70vw;
+  margin-bottom: 20px;
+}
+
+.default-input input {
+  margin-left: 24px;
+  height: 34px;
+  padding-left: 10px;
+}

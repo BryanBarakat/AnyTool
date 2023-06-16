@@ -1,0 +1,75 @@
+.percentage-calculator-subcontainer {
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  width: 90vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+  background-color: #282828;
+  border: 2px solid #222222;
+  border-radius: 6px;
+}
+
+.percentage-calculator-subcontainer ul {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.percentage-calculator-subcontainer ul li:nth-child(1),
+.percentage-calculator-subcontainer ul li:nth-child(3),
+.percentage-calculator-subcontainer ul li:nth-child(5) {
+  margin-top: -16px;
+}
+
+.percentage-calculator-subcontainer
+  .percentage-calculator-row2
+  ul
+  li:nth-child(2),
+.percentage-calculator-subcontainer
+  .percentage-calculator-row2
+  ul
+  li:nth-child(4) {
+  margin-top: -34px;
+}
+
+.percentage-calculator-subcontainer
+  .percentage-calculator-row3
+  ul
+  li:nth-child(2),
+.percentage-calculator-subcontainer
+  .percentage-calculator-row3
+  ul
+  li:nth-child(4),
+.percentage-calculator-subcontainer
+  .percentage-calculator-row3
+  ul
+  li:nth-child(5) {
+  margin-top: -34px;
+}
+
+.percentage-calculator-subcontainer
+  .percentage-calculator-row3
+  ul
+  li:nth-child(6) {
+  margin-top: -20px;
+}
+
+.percentage-calculator-subcontainer .percentage-calculator-row3 {
+  padding-bottom: 6px;
+}
+
+.percentage-calculator-subcontainer hr {
+  width: 90%;
+  border: none;
+  height: 1px;
+  background-color: #444;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

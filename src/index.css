@@ -1,0 +1,26 @@
+* {
+  font-family: "Poppins", sans-serif;
+  user-select: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #161616;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555555;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffc72c;
+}
+
+.container-landing {
+  overflow-y: hidden;
+}

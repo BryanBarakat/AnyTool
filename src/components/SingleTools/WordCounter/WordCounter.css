@@ -1,0 +1,36 @@
+.list-of-word-counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 6.5%;
+  margin-top: 2%;
+  color: white;
+}
+
+.list-of-word-counter li {
+  background-color: #363636;
+  border: 2px solid #505050;
+  padding: 14px;
+}
+
+.list-of-word-counter span {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 8px;
+  font-weight: 900;
+}
+
+.list-of-word-counter li:nth-child(1) span {
+  background-color: #ff9f55; /* Orange */
+}
+.list-of-word-counter li:nth-child(2) span {
+  background-color: #ff6b6b; /* Red */
+}
+.list-of-word-counter li:nth-child(3) span {
+  background-color: #48bb78; /* Green */
+}
+.list-of-word-counter li:nth-child(4) span {
+  background-color: #4299e1; /* Blue */
+}
