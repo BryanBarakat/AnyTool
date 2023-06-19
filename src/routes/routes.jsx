@@ -18,11 +18,13 @@ import {
   Route,
   BrowserRouter,
 } from "react-router-dom";
+import DiscountCalculator from "../components/SingleTools/DiscountCalculator/DiscountCalculator";
 import { WordCounter } from "../components/SingleTools/WordCounter/WordCounter";
 import { CaseConverter } from "../components/SingleTools/CaseConverter/CaseConverter";
 import RandomWordGenerator from "../components/SingleTools/RandomWordGenerator/RandomWordGenerator";
 import RemoveLineBreaks from "../components/SingleTools/RemoveLineBreaks/RemoveLineBreaks";
 import { LoremIpsumGenerator } from "../components/SingleTools/LoremIpsumGenerator/LoremIpsumGenerator";
+import { LoanCalculator } from "../components/SingleTools/LoanCalculator/LoanCalculator";
 
 const routes = (
   <Routes>
@@ -34,6 +36,16 @@ const routes = (
     <Route exact path="/tools/text-to-slug" element={<ChosenTool />}></Route>
     <Route exact path="/tools/ico-to-png" element={<IcoToPng />}></Route>
     <Route exact path="/tools/word-counter" element={<WordCounter />}></Route>
+    <Route
+      exact
+      path="/tools/loan-calculator"
+      element={<LoanCalculator />}
+    ></Route>
+    <Route
+      exact
+      path="/tools/discount-calculator"
+      element={<DiscountCalculator />}
+    ></Route>
     <Route
       exact
       path="/tools/percentage-calculator"

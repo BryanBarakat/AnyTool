@@ -8,20 +8,26 @@ export const DefaultInput = ({
   height,
   onChange,
   value,
+  name,
+  label,
+  padding,
 }) => {
   const inputStyle = {
     width: width,
     height: height,
+    padding: padding,
   };
 
   return (
     <div className="default-input">
+      {label && <label htmlFor={name}>{label}</label>}
       <input
         onChange={onChange}
         readOnly={readonly}
         type={type}
         value={value}
         style={inputStyle}
+        name={name}
       ></input>
     </div>
   );

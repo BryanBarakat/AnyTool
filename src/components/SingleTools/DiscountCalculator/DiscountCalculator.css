@@ -1,0 +1,46 @@
+.container-discount-calculator {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  color: white;
+}
+
+.discount-calculator {
+  color: white;
+}
+
+.perc-container-loan-calculator,
+.dol-container-loan-calculator {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.dol-sign-discount-calculator,
+.perc-sign-discount-calculator {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 3.5px;
+  font-size: 16px;
+  position: absolute;
+  left: 2%;
+  top: 56.6%;
+  transform: translateY(-50%);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background-color: #272727;
+  border: 2px solid #202020;
+}
+
+.dol-input-discount-calculator,
+.perc-input-discount-calculator {
+  padding-top: 66px;
+}
+
+.buttons-discount-calculator {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}

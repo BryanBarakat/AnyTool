@@ -39,7 +39,7 @@ export const PercentageCalculator = () => {
     // Calculate the percentage
     if (!percentage4 || !percentage5) {
       setWarning(true);
-      setWarningMessage("Fill in the fields");
+      setWarningMessage("Fill in the input fields");
       return;
     }
     const result = (percentage4 / percentage5) * 100;
@@ -50,7 +50,7 @@ export const PercentageCalculator = () => {
     // Calculate the percentage
     if (!percentage7 || !percentage8) {
       setWarning(true);
-      setWarningMessage("Fill in the fields");
+      setWarningMessage("Fill in the input fields");
       return;
     }
     const result = (percentage7 / percentage8) * 100;
