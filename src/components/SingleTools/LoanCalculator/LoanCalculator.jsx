@@ -99,9 +99,9 @@ export const LoanCalculator = () => {
       {monthlyPayment && totalCost && totalInterest && (
         <DefaultTable
           rows={[
-            ["Monthly Payments: ", `${monthlyPayment} $`],
-            ["Total Cost of Loan: ", `${totalCost} $`],
-            ["Total Interest: ", `${totalInterest} $`],
+            ["Monthly Payments: ", `$ ${monthlyPayment}`],
+            ["Total Cost of Loan: ", `$ ${totalCost}`],
+            ["Total Interest: ", `$ ${totalInterest}`],
           ]}
         ></DefaultTable>
       )}

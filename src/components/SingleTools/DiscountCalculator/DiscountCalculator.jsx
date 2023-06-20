@@ -79,11 +79,11 @@ export const DiscountCalculator = () => {
           rows={[
             [
               "Savings:",
-              `${(
+              `$ ${(
                 parseFloat(originalPrice) - parseFloat(discountedPrice)
-              ).toFixed(2)} $`,
+              ).toFixed(2)}`,
             ],
-            ["Discounted Price:", `${discountedPrice} $`],
+            ["Discounted Price:", `$ ${discountedPrice}`],
           ]}
         ></DefaultTable>
       )}

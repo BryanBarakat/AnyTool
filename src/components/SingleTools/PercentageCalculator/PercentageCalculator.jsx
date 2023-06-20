@@ -31,7 +31,7 @@ export const PercentageCalculator = () => {
       setWarningMessage("Fill in the fields");
       return;
     }
-    const result = (percentage1 / 100) * percentage2;
+    const result = ((percentage1 / 100) * percentage2).toFixed(2);
     setPercentage3(result);
   }
 
@@ -42,7 +42,7 @@ export const PercentageCalculator = () => {
       setWarningMessage("Fill in the input fields");
       return;
     }
-    const result = (percentage4 / percentage5) * 100;
+    const result = ((percentage4 / percentage5) * 100).toFixed(2);
     setPercentage6(result);
   }
 
@@ -53,7 +53,7 @@ export const PercentageCalculator = () => {
       setWarningMessage("Fill in the input fields");
       return;
     }
-    const result = (percentage7 / percentage8) * 100;
+    const result = ((percentage7 / percentage8) * 100).toFixed(2);
     setPercentage9(result);
   }
 

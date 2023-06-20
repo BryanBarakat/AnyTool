@@ -25,6 +25,9 @@ import RandomWordGenerator from "../components/SingleTools/RandomWordGenerator/R
 import RemoveLineBreaks from "../components/SingleTools/RemoveLineBreaks/RemoveLineBreaks";
 import { LoremIpsumGenerator } from "../components/SingleTools/LoremIpsumGenerator/LoremIpsumGenerator";
 import { LoanCalculator } from "../components/SingleTools/LoanCalculator/LoanCalculator";
+import { GstCalculator } from "../components/SingleTools/GstCalculator/GstCalculator";
+import { ProbabilityCalculator } from "../components/SingleTools/ProbabilityCalculator/ProbabilityCalculator";
+import { SalesTaxCalculator } from "../components/SingleTools/SalesTaxCalculator/SalesTaxCalculator";
 
 const routes = (
   <Routes>
@@ -36,6 +39,21 @@ const routes = (
     <Route exact path="/tools/text-to-slug" element={<ChosenTool />}></Route>
     <Route exact path="/tools/ico-to-png" element={<IcoToPng />}></Route>
     <Route exact path="/tools/word-counter" element={<WordCounter />}></Route>
+    <Route
+      exact
+      path="/tools/probability-calculator"
+      element={<ProbabilityCalculator />}
+    ></Route>
+    <Route
+      exact
+      path="/tools/sales-tax-calculator"
+      element={<SalesTaxCalculator />}
+    ></Route>
+    <Route
+      exact
+      path="/tools/gst-calculator"
+      element={<GstCalculator />}
+    ></Route>
     <Route
       exact
       path="/tools/loan-calculator"
